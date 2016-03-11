@@ -43,24 +43,13 @@ var _MainPage_Variables_ ={};
                     </wm-accordioncontent>
                 </wm-accordionpane>
             </wm-accordion>
-            <wm-list name="list1"></wm-list>
-            <wm-layoutgrid name="layoutgrid1">
-                <wm-gridrow name="gridrow1">
-                    <wm-gridcolumn columnwidth="4" name="gridcolumn1"></wm-gridcolumn>
-                    <wm-gridcolumn columnwidth="4" name="gridcolumn2"></wm-gridcolumn>
-                    <wm-gridcolumn columnwidth="4" name="gridcolumn3"></wm-gridcolumn>
-                </wm-gridrow>
-                <wm-gridrow name="gridrow2">
-                    <wm-gridcolumn columnwidth="4" name="gridcolumn4"></wm-gridcolumn>
-                    <wm-gridcolumn columnwidth="4" name="gridcolumn5"></wm-gridcolumn>
-                    <wm-gridcolumn columnwidth="4" name="gridcolumn6"></wm-gridcolumn>
-                </wm-gridrow>
-                <wm-gridrow name="gridrow3">
-                    <wm-gridcolumn columnwidth="4" name="gridcolumn7"></wm-gridcolumn>
-                    <wm-gridcolumn columnwidth="4" name="gridcolumn8"></wm-gridcolumn>
-                    <wm-gridcolumn columnwidth="4" name="gridcolumn9"></wm-gridcolumn>
-                </wm-gridrow>
-            </wm-layoutgrid>
+            <wm-panel name="panel1" class="panel-primary">
+                <wm-panel-footer name="panel_footer1">
+                    <wm-panel name="panel2" class="panel-primary">
+                        <wm-panel-footer name="panel_footer2"></wm-panel-footer>
+                    </wm-panel>
+                </wm-panel-footer>
+            </wm-panel>
         </wm-page-content>
         <wm-right-panel columnwidth="2" name="rightpanel" content="rightnav"></wm-right-panel>
     </wm-content>
