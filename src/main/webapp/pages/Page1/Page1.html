@@ -1,6 +1,7 @@
-<wm-page data-ng-controller="Page1PageController" pagetitle="Page 1"> 
-    <wm-content> 
-        <wm-page-content columnwidth="12"> 
-        </wm-page-content> 
-    </wm-content> 
+<wm-page name="page1" data-ng-controller="Page1PageController" pagetitle="Page 1">
+    <wm-content name="content1">
+        <wm-page-content name="page_content1" columnwidth="12">
+            <wm-button name="button1" class="btn-default" caption="Button" type="button"></wm-button>
+        </wm-page-content>
+    </wm-content>
 </wm-page>
